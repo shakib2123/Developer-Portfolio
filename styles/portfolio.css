@@ -1,20 +1,17 @@
 /* common shared style */
-body {
-    font-family: 'Open Sans', sans-serif;
-}
 
 .section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
 .section-description {
     color: #757575;
     text-align: center;
-    font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -37,6 +34,7 @@ nav {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav>ul {
@@ -87,6 +85,7 @@ nav a {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .banner-content {
@@ -98,9 +97,14 @@ nav a {
     font-weight: 700px;
     margin-top: 5px;
     margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* main section style */
+main {
+    max-width: 1040px;
+    margin: 0 auto;
+}
 
 /* about section style */
 .about {
@@ -108,4 +112,13 @@ nav a {
     border-radius: 10px;
     background-color: #ffefe4;
     margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
 }
